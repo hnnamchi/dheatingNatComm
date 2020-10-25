@@ -7,12 +7,9 @@ latN   =  15.
 lonL   = -60.
 lonR   =  20.
 
-
 nmos = 12
 xlabel = ispan(0,nmos-1,1)
 print(xlabel)
-  
- 
 
 mm = 5		;index counts from zero, June is 5th month
 
@@ -28,14 +25,6 @@ print(days)
 
 xy_colors_dheating        = (/"red","blue","deepskyblue","black","deeppink4","black"/)
 xy_colors_thermocline        = (/"red","yellow2","deepskyblue","blue","deeppink4","black"/)
-
-
-;xy_colors_dheating        = (/"red","greenyellow","deepskyblue","black","darksalmon","black"/)
-;xy_colors_thermocline        = (/"blue","yellow3","red","springgreen4","springgreen","black"/)
-
-
-
-
 
 yrStrt = 1982
 yrLast = 2010
